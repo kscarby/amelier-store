@@ -33,6 +33,7 @@ li:hover {
     font-optical-sizing: auto;
     font-style: normal;
     color: #B5C18E;
+    cursor: pointer;
 }
 
 .toolbar-filter {
@@ -51,6 +52,7 @@ li:hover {
     display: flex;
     justify-content: end;
     width: 261.61px;
+    
 }
 
 .toolbar-home {
@@ -97,6 +99,17 @@ li:hover {
     justify-content: space-between;
 }
 
+.bt-purchase {
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: #B5C18E;
+    font-size: 20px;
+    border-style: none;
+    width: 100px;
+}
+
+
 .navbar {
     margin: auto;
     height: 40px;
@@ -111,6 +124,7 @@ li:hover {
     text-transform: uppercase;
     color: #B99470;
     border: 1px solid #f7dcb900;
+    cursor: pointer;
 }
 .navbar-patterns {
     margin: 10px;
@@ -121,6 +135,7 @@ li:hover {
     text-transform: uppercase;
     color: #B99470;
     border: 1px solid #f7dcb900;
+    cursor: pointer;
 }
 .navbar-prompt-delivery {
     margin: 10px;
@@ -131,6 +146,7 @@ li:hover {
     text-transform: uppercase;
     color: #B99470;
     border: 1px solid #f7dcb900;
+    cursor: pointer;
 }
 
 .toolbar-home:hover {

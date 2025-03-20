@@ -39,6 +39,7 @@
 
 h1 {
     font-size: 25px;
+    
 }
 
 .new-title {
@@ -62,7 +63,7 @@ h1 {
 }
 
 .button-buy {
-    
+    cursor: pointer;
     padding: 5px 10px;
     background-color: #B5C18E;
     font-size: 20px;
