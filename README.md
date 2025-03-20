@@ -1,8 +1,8 @@
-# README - E-commerce de Amigurumis  - AMELIER CROCHET
+# README - E-commerce - AMELIER STORE
 
 ## Descrição do Projeto
 
-Bem-vindo ao projeto de e-commerce da nossa lojinha de amigurumis! Este é um site dedicado à venda de amigurumis feitos à mão, onde os clientes podem navegar, visualizar e comprar nossos produtos únicos. O projeto foi desenvolvido utilizando as tecnologias JavaScript, React e a biblioteca MUI (Material-UI) para proporcionar uma interface moderna e responsiva.
+Bem-vindo ao projeto de e-commerce da nossa lojinha! Este é um site dedicado à venda de produtos em geral, onde os clientes podem navegar, visualizar e comprar nossos produtos únicos. O projeto foi desenvolvido utilizando as tecnologias JavaScript, React e a biblioteca MUI (Material-UI) para proporcionar uma interface moderna e responsiva.
 
 ## Tecnologias Utilizadas
 
@@ -12,7 +12,7 @@ MUI (Material-UI): Uma biblioteca de componentes React que implementa o Material
 
 ## Funcionalidades
 
-Catálogo de Produtos: Exibição de amigurumis com imagens, descrições e preços.
+Catálogo de Produtos: Exibição de produtos com imagens, descrições e preços.
 Carrinho de Compras: Permite que os clientes adicionem produtos e realizem a compra de forma simples.
 Sistema de Filtros: Filtragem de produtos por categorias, preços e popularidade.
 Responsividade: O design se adapta a diferentes tamanhos de tela, proporcionando uma boa experiência em dispositivos móveis e desktop.
@@ -21,7 +21,7 @@ Responsividade: O design se adapta a diferentes tamanhos de tela, proporcionando
 
 1 - Clone o repositório
 
-git clone https://github.com/kscarby/ameliercrochet.git
+git clone https://github.com/kscarby/amelier-store.git
 
 2 - Navegue até o diretório do projeto:
 
@@ -46,6 +46,6 @@ Para mais informações, entre em contato:
 Vanessa Sabrina Costa Bandeira
 [LinkedIn](https://www.linkedin.com/in/vanessa-sabrina/)
 [E-mail](sabrina.keito@gmail.com)
-Obrigado por conferir nosso projeto de e-commerce de amigurumis!
+Obrigado por conferir nosso projeto de e-commerce!
 
 Sinta-se à vontade para personalizar as informações, como o nome do repositório, seu nome e detalhes de contato.
