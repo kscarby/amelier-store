@@ -93,11 +93,17 @@ const Toolbar = ({ cart, setCart }) => {
             <button className="navbar-news" onClick={() => navigate('/newproducts')}>
               Lançamentos
             </button>
-            <button className="navbar-patterns" onClick={() => navigate('/patterns')}>
-              Receitas
+            <button className="navbar-prompt-delivery" onClick={() => navigate('/womensclothing')}>
+              Vestuário Feminino
             </button>
-            <button className="navbar-prompt-delivery" onClick={() => navigate('/prompt')}>
-              Pronta Entrega
+            <button className="navbar-prompt-delivery" onClick={() => navigate('/mensclothing')}>
+              Vestuário Masculino
+            </button>
+            <button className="navbar-prompt-delivery" onClick={() => navigate('/jewelery')}>
+              Jóias
+            </button>
+            <button className="navbar-patterns" onClick={() => navigate('/eletronics')}>
+              Eletrônicos
             </button>
           </div>
         </div>

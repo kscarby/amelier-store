@@ -3,10 +3,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Toolbar from './components/Toolbar';
 import NewProducts from './pages/NewProducts';
-import Patterns from './pages/Patterns';
-import PromptDelivery from './pages/PromptDelivery';
+import Eletronics from './pages/Eletronics';
+import WomensClothing from './pages/WomensClothing';
+import MensClothing from './pages/MensClothing.js';
 import Home from './pages/Home';
-import BuyPage from './pages/BuyPage';
+import Jewelery from './pages/Jewelery';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -33,9 +34,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/newproducts" element={<NewProducts addToCart={addToCart} />} />
-        <Route path="/prompt" element={<PromptDelivery addToCart={addToCart} />} />
-        <Route path="/patterns" element={<Patterns addToCart={addToCart} />} />
-        <Route path="/buypage" element={<BuyPage />} />
+        <Route path="/mensclothing" element={<MensClothing addToCart={addToCart} />} />
+        <Route path="/womensclothing" element={<WomensClothing addToCart={addToCart} />} />
+        <Route path="/jewelery" element={<Jewelery />} />
+        <Route path="/eletronics" element={<Eletronics addToCart={addToCart} />} />
+        
       </Routes>
       <Footer />
     </BrowserRouter>
