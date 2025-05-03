@@ -1,0 +1,88 @@
+.container-footer {
+    min-height: 280px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    padding: 20px;
+    background-color: #F7DCB9;
+    align-items: center;
+}
+
+.toolbar-logo {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    grid-column: 1 / -1;
+    justify-self: center;
+}
+
+.container-footer-links {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+    justify-items: center;
+}
+
+.container-footer-social {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 15px;
+    justify-items: center;
+}
+
+.bt-links {
+    width: 70%;
+    max-width: 150px;
+    color: black;
+    border-radius: 20px;
+    border-style: none;
+    padding: 8px 12px;
+    background-color: white;
+    transition: background-color 0.3s;
+}
+
+.bt-links:hover {
+    background-color: #e0c59b;
+    cursor: pointer;
+}
+
+.bt-social {
+    border-style: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    transition: background-color 0.3s;
+}
+
+.bt-social:hover {
+    background-color: #e0c59b;
+    cursor: pointer;
+}
+
+.bt-terms {
+    border-style: none;
+    background-color: transparent;
+    font-size: medium;
+    color: black;
+    transition: color 0.3s;
+}
+
+.bt-terms:hover {
+    color: #8b5e3c;
+    cursor: pointer;
+}
+
+.container-footer-terms {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #8b5e3c;
+}

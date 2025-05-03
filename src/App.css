@@ -4,11 +4,7 @@
   flex-direction: column;
 }
 .App-body {
-  height: 1360px;
-}
-
-.Banner-body {
-  
+  height: auto
 }
 
 button , input {

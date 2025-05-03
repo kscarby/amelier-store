@@ -4,7 +4,7 @@ const Header = () => {
     //proomoçoes
   return (
     <div>
-        <p>{}</p>
+      
     </div>
   )
 }
