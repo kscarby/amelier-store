@@ -28,12 +28,11 @@ li:hover {
     justify-content: space-between;
 }
 .toolbar-logo{
-    font-size: 30px ;
+    font-size: 25px ;
     font-family: "Playwrite HR Lijeva", cursive;
     font-optical-sizing: auto;
     font-style: normal;
     color: #B5C18E;
-    cursor: pointer;
 }
 
 .toolbar-filter {

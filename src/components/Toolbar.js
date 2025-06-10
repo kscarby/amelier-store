@@ -39,7 +39,7 @@ const Toolbar = ({ cart, setCart }) => {
     <ThemeProvider theme={theme}>
       <div className="toolbar-app">
         <div className="toolbar">
-          <h1 className="toolbar-logo" onClick={() => navigate('/') }>Amelier Store</h1>
+          <h1 className="toolbar-logo" onClick={() => navigate('/') }>Amelier Crochet</h1>
           <input type="text" placeholder="Pesquisar..." className="toolbar-filter" />
 
           <div className="toolbar-buttons">
@@ -94,16 +94,16 @@ const Toolbar = ({ cart, setCart }) => {
               Lançamentos
             </button>
             <button className="navbar-prompt-delivery" onClick={() => navigate('/womensclothing')}>
-              Vestuário Feminino
+              Amigurumis
             </button>
             <button className="navbar-prompt-delivery" onClick={() => navigate('/mensclothing')}>
-              Vestuário Masculino
+              Chaveiros
             </button>
             <button className="navbar-prompt-delivery" onClick={() => navigate('/jewelery')}>
-              Jóias
+              Acessórios
             </button>
             <button className="navbar-patterns" onClick={() => navigate('/eletronics')}>
-              Eletrônicos
+              Todos
             </button>
           </div>
         </div>

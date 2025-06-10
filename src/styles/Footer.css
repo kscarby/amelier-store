@@ -1,26 +1,31 @@
 .container-footer {
-    min-height: 280px;
+    min-height: 250px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
-    gap: 20px;
-    padding: 20px;
-    background-color: #F7DCB9;
+    gap: 5px;
+    padding: 10px;
+    background-color: #8b5e3c;
     align-items: center;
 }
 
-.toolbar-logo {
-    font-weight: bolder;
+.bt-logo {
+    font-size: 30px ;
+    font-family: "Playwrite HR Lijeva", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
     font-size: 1.5rem;
     grid-column: 1 / -1;
     justify-self: center;
 }
 
 .container-footer-links {
+    grid-column: span 2;
     display: grid;
     grid-template-rows: repeat(3, auto);
     gap: 10px;
     justify-items: center;
+
 }
 
 .container-footer-social {
@@ -32,31 +37,35 @@
 
 .bt-links {
     width: 70%;
-    max-width: 150px;
-    color: black;
+    max-width: 200px;
     border-radius: 20px;
     border-style: none;
-    padding: 8px 12px;
-    background-color: white;
+    background-color: transparent;
     transition: background-color 0.3s;
+    border: 1px solid ;
 }
 
 .bt-links:hover {
-    background-color: #e0c59b;
+    background-color: #6d4c2f; 
     cursor: pointer;
 }
 
 .bt-social {
     border-style: none;
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    background-color: white;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
     transition: background-color 0.3s;
 }
 
+.img-social {
+    height: 40px;
+    width: 40px;
+}
+
 .bt-social:hover {
-    background-color: #e0c59b;
+    background-color: #6d4c2f;
     cursor: pointer;
 }
 
@@ -64,12 +73,12 @@
     border-style: none;
     background-color: transparent;
     font-size: medium;
-    color: black;
+    color: white; /* Cor do texto ajustada para contraste */
     transition: color 0.3s;
 }
 
 .bt-terms:hover {
-    color: #8b5e3c;
+    color: #d2b19c; /* Cor mais clara para o hover */
     cursor: pointer;
 }
 
@@ -78,11 +87,10 @@
     display: grid;
     grid-auto-flow: column;
     justify-content: center;
-    align-items: center;
     gap: 15px;
 }
 
 button:focus {
     outline: none;
-    box-shadow: 0 0 0 2px #8b5e3c;
+    box-shadow: 0 0 0 2px #d2b19c; 
 }

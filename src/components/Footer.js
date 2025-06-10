@@ -1,6 +1,9 @@
 import React from 'react'
 
 import '../styles/Footer.css';
+import email from '../assets/icons/email.png';
+import instagram from '../assets/icons/instagram.png';
+import whatsapp from '../assets/icons/whatsapp.png';
 
 const Footer = () => {
     //Footer
@@ -8,24 +11,27 @@ const Footer = () => {
     <div className='container-footer'>
       <div className='container-footer-social'>
         
-      <h1 className='toolbar-logo'>Amelier Store</h1>
+      <h1 className='bt-logo'>Amelier Crochet</h1>
           <button className='bt-social'>
-            <img alt='instagram'></img>
+            <img className='img-social' src={instagram} alt='instagram'></img>
           </button>
           <button className='bt-social'>
-            <img alt='whatsapp'></img>
+            <img className='img-social' src={whatsapp} alt='whatsapp'></img>
           </button>
           <button className='bt-social'>
-            <img alt='email'></img>
+            <img className='img-social' src={email} alt='email'></img>
           </button>
+      </div>
+      <div>
+        <input></input>
       </div>
       <div className='container-footer-links'>
         <button className='bt-links'>Sobre</button>          
         <button className='bt-links'>Contato</button>
         <button className='bt-links'>Produtos</button>
         <button className='bt-links'>FAQ</button>
-        <button className='bt-links'>Trabalhe conosco</button>
       </div>
+      
       <div className='container-footer-terms'>
         <p className='p-copy'>Copyright © 2025 Amelier Store</p>
         <button className='bt-terms'>Termos de uso</button>

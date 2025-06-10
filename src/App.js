@@ -10,6 +10,12 @@ import Home from './pages/Home';
 import Jewelery from './pages/Jewelery';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import ProductManager from './components/ProductManager.js';
+import LoginForm from "./components/LoginForm";
+import RegisterForm from "./components/RegisterForm";
+import AuthManager from './components/AuthManager.js';
+import Account from './components/Account.js';
+
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -33,6 +39,9 @@ function App() {
       <Toolbar cart={cart} setCart={setCart} />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path='/products' element = {<ProductManager />} />
+        <Route path='/login' element = {<Account />} />
+        <Route path='/register' element = {<RegisterForm />} />
         <Route path="/newproducts" element={<NewProducts addToCart={addToCart} />} />
         <Route path="/mensclothing" element={<MensClothing addToCart={addToCart} />} />
         <Route path="/womensclothing" element={<WomensClothing addToCart={addToCart} />} />
